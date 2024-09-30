@@ -28,11 +28,9 @@ int main() {
 
     // Translate and print the encoded string
     std::cout << "Encoded message: ";
-    for (char c : text) {
+    for (char c : text) 
+    {
         std::cout << transCh(c, cypher);
     }
 
-    std::cout << std::endl;
-
-    return 0;
 }
